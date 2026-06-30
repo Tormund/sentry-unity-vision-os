@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ba99660775f004b6fb67ac54c217b72d
+guid: 5c7e9a1b3d0f42a8e6b1c3d5f7a9b2c4
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -7,7 +7,7 @@ PluginImporter:
   executionOrder: {}
   defineConstraints: []
   isPreloaded: 0
-  isOverridable: 1
+  isOverridable: 0
   isExplicitlyReferenced: 0
   validateReferences: 1
   platformData:
@@ -20,12 +20,11 @@ PluginImporter:
         Exclude Editor: 1
         Exclude Linux64: 1
         Exclude OSXUniversal: 1
-        Exclude VisionOS: 0
         Exclude WebGL: 1
         Exclude Win: 1
         Exclude Win64: 1
         Exclude iOS: 1
-        Exclude tvOS: 1
+        Exclude VisionOS: 0
   - first:
       Any:
     second:
@@ -45,9 +44,7 @@ PluginImporter:
       enabled: 1
       settings:
         AddToEmbeddedBinaries: true
-        CPU: ARM64
-        CompileFlags:
-        FrameworkDependencies:
+        CPU: AnyCPU
   userData:
   assetBundleName:
   assetBundleVariant:
